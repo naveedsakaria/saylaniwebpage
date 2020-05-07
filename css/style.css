@@ -1,0 +1,250 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+/* Start Header */
+.header-top{
+    /*background-color: rgb(80, 98, 204);*/
+    background-color: rgb(0, 179, 179);
+}
+/* Social Icons */
+.list-unstyled {
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    margin-top: 15px; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons .fa{
+    font-size: 1.10em;
+}
+.social-icons .fa{
+	width: 27px;
+	height: 27px;
+	line-height: 27px;
+    text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active{ 
+	-webkit-transform: scale(1.25) rotate(360deg);
+	-moz-transform: scale(1.25) rotate(360deg);
+	-ms-transform: scale(1.25) rotate(360deg);
+	-o-transform: scale(1.25) rotate(360deg);
+    transform: scale(1.25) rotate(360deg);
+}
+.social-icons .fa-facebook{
+    background-color:#3C599F;
+    color: white;
+}
+.social-icons .fa-twitter{
+    background-color:#32CCFE; 
+    color: white;
+}  
+.social-icons .fa-whatsapp{
+    background-color:#25D366; 
+    color: white;
+}  
+.social-icons .fa-instagram{
+    color: white;
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+    /*color: #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%;*/
+}
+.social-icons .fa-youtube-play {
+    color: white;
+    background-color: rgb(247, 45, 45);
+}  
+/* End Social Icons */
+
+/* Social Text */
+.social-txt{
+    margin-top: 17px;
+    color: white;
+    text-align: center;
+}
+.btn-sm{
+    font-size: 11px;
+    padding: 5px;
+    font-weight: 400;
+}
+/* End Social Text */
+
+.section-about{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 0px;
+}
+.about-hd {
+    margin-top: 40px;
+}
+.title-icon {
+    margin-bottom: 40px;
+}
+.title-icon::before{
+    content: "__";
+    padding-right: 5px;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 20px;    
+    color: rgb(17, 126, 17);
+}
+.title-icon::after{
+    content: "__";
+    padding-left: 5px;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 20px;
+    color: rgb(17, 126, 17);
+}
+.say-cont-p{
+    font-weight: 600;
+    color: #316DC3;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.service-shadow{
+    box-shadow: 5px 5px 15px lightgray;
+}
+.line-bottom::after{
+    content: "\a______";
+    white-space: pre-line;
+    color: rgb(17, 126, 17);
+    
+}
+.line-bottom{
+    line-height: 15px !important;
+    color: #316DC3;
+    padding-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.media-left{
+    padding: 5px;
+    padding-left: 10px;
+}
+.media-body{
+    padding-top: 15px;
+    color: #316DC3;
+    padding-left: 20px;
+    
+}
+.font-15{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.border-1px{
+    border: 1px solid rgb(241, 241, 241);
+}
+.bb{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px !important;
+}
+.st-icon{
+    color: green;
+}
+.list-inline1 li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.social-icons1 .fa{
+    text-align: center;
+}
+.social-icons1 .fa{
+    font-size: 1.10em;
+}
+.social-icons1 .fa{
+	width: 27px;
+	height: 27px;
+	line-height: 27px;
+    /*text-align: center;*/
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.social-icons1.icon-circle1 .fa{ 
+	border-radius: 50%;
+}
+.social-icons1.icon-rotate1 .fa:hover, .social-icons1.icon-rotate1 .fa:active{ 
+	-webkit-transform: scale(1.25) rotate(360deg);
+	-moz-transform: scale(1.25) rotate(360deg);
+	-ms-transform: scale(1.25) rotate(360deg);
+	-o-transform: scale(1.25) rotate(360deg);
+    transform: scale(1.25) rotate(360deg);
+}
+.social-icons1 .fa-facebook{
+    background-color:#3C599F;
+    color: white;
+}
+.social-icons1 .fa-twitter{
+    background-color:#32CCFE; 
+    color: white;
+}  
+.social-icons1 .fa-whatsapp{
+    background-color:#25D366; 
+    color: white;
+}  
+.social-icons1 .fa-instagram{
+    color: white;
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+    /*color: #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%;*/
+}
+.social-icons1 .fa-youtube-play {
+    color: white;
+    background-color: rgb(247, 45, 45);
+}
+.line-bottom1::after{
+    content: "\a_____";
+    white-space: pre-line;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(17, 126, 17);
+    
+}
+.line-bottom1{
+    line-height: 12px !important;
+    color: white; font-size: 16px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+    z-index: 99;
+    font-size: 24px;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 40%;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  
