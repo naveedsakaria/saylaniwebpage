@@ -6,15 +6,14 @@ body{
 /* Start Header */
 .header-top{
     /*background-color: rgb(80, 98, 204);*/
-    background-color: rgb(0, 179, 179);
+    background-color: #0000cc;
 }
 /* Social Icons */
 .list-unstyled {
     list-style: none;
 }
 .list-inline li {
-    display: inline-block;
-    margin-top: 15px; 
+    display: inline-block;    
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -72,9 +71,9 @@ body{
 
 /* Social Text */
 .social-txt{
-    margin-top: 17px;
+    margin-top: 5px;
     color: white;
-    text-align: center;
+    
 }
 .btn-sm{
     font-size: 11px;
@@ -123,12 +122,15 @@ body{
     content: "\a______";
     white-space: pre-line;
     color: rgb(17, 126, 17);
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-family: monospace;
     
 }
 .line-bottom{
-    line-height: 15px !important;
+    line-height: 22px !important;
     color: #316DC3;
-    padding-bottom: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
 }
